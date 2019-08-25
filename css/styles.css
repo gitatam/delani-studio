@@ -1,12 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #FFFFFF;
 }
 .jumbotron {
   color: white;
-  background-image: url("../images/backgrounds/h_img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#landing-page {
+  background-image: url("../images/backgrounds/h_img.jpg");
   height: 100vh;
 }
 
@@ -29,7 +37,19 @@ body {
   bottom: 0px;
 }
 
-.about-us {
+#about-us {
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  height: 50vh;
+}
+
+#services {
+  background-image: url("../images/backgrounds/s_image.jpg");
+  height: 50vh;
+}
+
+.services-text {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
 }
