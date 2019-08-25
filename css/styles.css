@@ -39,6 +39,7 @@ body {
 }
 
 #about-us {
+  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -67,4 +68,22 @@ body {
   font-size: 16pt;
   text-transform: uppercase;
   font-weight: bolder;
+}
+
+#contact-us {
+  padding-top: 20px;
+  background-image: url("../images/backgrounds/c_image.jpg");
+}
+
+.contact-form {
+  text-align: center;
+  padding: 30px;
+}
+
+input, textarea {
+    background-color: rgba(0,0,0,0.1);
+}
+::placeholder {
+  line-height: 1.4;
+  color: white;
 }
