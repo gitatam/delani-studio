@@ -1,3 +1,6 @@
+body {
+  background-color: #FFFFFF;
+}
 .jumbotron {
   color: white;
   background-image: url("../images/backgrounds/h_img.jpg");
@@ -24,4 +27,9 @@
   margin-bottom: 5px;
   position: absolute;
   bottom: 0px;
+}
+
+.about-us {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
