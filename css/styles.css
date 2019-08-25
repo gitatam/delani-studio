@@ -5,6 +5,7 @@
 
 body {
   background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
 }
 .jumbotron {
   color: white;
@@ -38,7 +39,6 @@ body {
 }
 
 #about-us {
-  font-family: 'Roboto', sans-serif;
   text-align: center;
   height: 50vh;
 }
@@ -49,7 +49,11 @@ body {
 }
 
 .services-text {
-  font-family: 'Roboto', sans-serif;
   text-align: center;
   color: white;
+}
+
+#what-we-do {
+  text-align: center;
+  height: 30vh;
 }
