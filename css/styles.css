@@ -6,3 +6,22 @@
   background-size: cover;
   height: 100vh;
 }
+
+.hero-text {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  font-weight: bold;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.mouse-click{
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-bottom: 5px;
+  position: absolute;
+  bottom: 0px;
+}
