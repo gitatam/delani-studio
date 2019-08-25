@@ -79,11 +79,20 @@ body {
   text-align: center;
   padding: 30px;
 }
+textarea {
+  width:70%;
+  max-width:75%;
+  max-height:60%;
+}
+
+input {width:35%;display:inline-block;}
 
 input, textarea {
-    background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.1);
+  color: white;
+  padding: 5px;
 }
 ::placeholder {
-  line-height: 1.4;
   color: white;
+  padding: 5px;
 }
