@@ -16,7 +16,7 @@ body {
 
 #landing-page {
   background-image: url("../images/backgrounds/h_img.jpg");
-  height: 100vh;
+  height: 100vh!important;
 }
 
 .hero-text {
@@ -40,12 +40,10 @@ body {
 
 #about-us {
   text-align: center;
-  height: 50vh;
 }
 
 #services {
   background-image: url("../images/backgrounds/s_image.jpg");
-  height: 50vh;
 }
 
 .services-text {
@@ -55,5 +53,18 @@ body {
 
 #what-we-do {
   text-align: center;
-  height: 30vh;
+}
+
+.card-deck {
+  margin-top: 10px;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+#portfolio .card-title {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 16pt;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
