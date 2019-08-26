@@ -43,6 +43,10 @@ body {
   text-align: center;
 }
 
+.work-text {
+  display: none;
+}
+
 #services {
   background-image: url("../images/backgrounds/s_image.jpg");
 }
