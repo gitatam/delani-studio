@@ -66,13 +66,16 @@ body {
   padding-bottom: 15px;
 }
 
-#portfolio .card-title {
+.card-title1, .card-title2, .card-title3, .card-title4, .card-title5, .card-title6, .card-title7, .card-title8 {
   font-family: 'Ubuntu', sans-serif;
   color: white;
   font-size: 16pt;
   text-transform: uppercase;
   font-weight: bolder;
+  border: solid 4px #FFFFFF;
+  display: none
 }
+
 
 #contact-us {
   padding-top: 20px;
